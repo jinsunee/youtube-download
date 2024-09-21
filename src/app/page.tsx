@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 
 export default function Home() {
-  const [url, setUrl] = useState("https://www.youtube.com/watch?v=CHp0Kaidr14");
+  const [url, setUrl] = useState("");
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [videoInfo, setVideoInfo] = useState<any>(null);
   const [error, setError] = useState("");
